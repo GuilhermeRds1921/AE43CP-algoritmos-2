@@ -1,0 +1,13 @@
+Implemente uma função para verificar se um grafo é cíclico ou acíclico
+
+Input Format
+
+A primeira linha contém o número de vértices seguido pela respectiva matriz de adjacência.
+
+Constraints
+
+.
+
+Output Format
+
+imprimir ciclico ou aciclico.

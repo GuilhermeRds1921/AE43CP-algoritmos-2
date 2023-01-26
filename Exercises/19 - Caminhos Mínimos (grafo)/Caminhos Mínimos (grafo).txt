@@ -1,0 +1,15 @@
+Implemente o algoritmo de Dijkstra. A função deve receber um grafo representado por uma matriz de adjacência e construir uma árvore geradora mínima. Caso desejar, neste exercício é permitida a conversão da matriz de adjacência para lista de adjacência. Por fim, a árvore de caminhos mínimos deve ser construída a partir do vértice "0".
+
+Input Format
+
+A primeira linha contém o número de vértices seguido pela respectiva matriz de adjacência.
+
+Constraints
+
+.
+
+Output Format
+
+Imprimir a árvore de caminhos mínimos. Cada linha deve ser impressa no seguinte formato: "v_i: pai[v_i]".
+
+Para o vértice da árvore que não tiver "pai", deve ser impresso o caractere "-" (traço/sinal de menos). Como o algoritmo deve ser iniciada a partir do vértice "0", então a primeira linha sempre será "0: -"

@@ -1,0 +1,13 @@
+Implemente uma função, utilizando divisão e conquista, que calcule a potência de um número inteiro
+
+Input Format
+
+Devem ser lidos, na primeira linha, dois números inteiros ("a" e "b") que sejam >=0.
+
+Constraints
+
+.
+
+Output Format
+
+Um número inteiro resultante da operação "a^b" ("a" elevado a "b")

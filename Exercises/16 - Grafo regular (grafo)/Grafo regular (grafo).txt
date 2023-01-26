@@ -1,0 +1,11 @@
+Um grafo regular é um grafo em que todos os vértices possuem o mesmo grau.
+
+Com base nisso, crie uma função para descobrir se o grafo de entrada é regular ou não.
+
+Input Format
+
+A primeira linha contém o número de vértices seguido pela respectiva matriz de adjacência.
+
+Output Format
+
+sim ou não indicando se o grafo é ou não regular.

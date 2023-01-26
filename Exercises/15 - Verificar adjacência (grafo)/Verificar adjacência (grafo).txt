@@ -1,0 +1,20 @@
+Implemente uma função (verificaAdjacencia) para verificar se 2 vértices  e  quaisquer são adjacentes em grafo representado por matriz de adjacência (direcionado ou não-dorecionado).
+
+Para a implementação da solução, considere a estrutura abaixo:
+
+typedef struct GrafoMA GrafoMA;
+
+struct GrafoMA{
+   int V; // número de vértices
+   int A; // número de arestas
+   int **mat;
+};
+Obs.: para a implementação da solução, pode ser utilizado o código (TAD) apresentado em aula.
+
+Input Format
+
+A primeira linha contém o número de vértices seguido pela respectiva matriz de adjacência. A linha seguinte faz sucessivas chamadas da função verificaAdjacencia passando como parâmetro os índices de 2 vértices. O valor -1 indica fim das chamadas.
+
+Output Format
+
+A saída deve imprimir sim ou não para cada chamada da função verificaAdjacencia
